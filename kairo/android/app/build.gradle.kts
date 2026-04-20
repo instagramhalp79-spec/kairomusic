@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.example.kairo"
-    compileSdk = 35 // Updated to meet audio_service requirement
+    compileSdk = 36 // Updated to the highest required SDK version
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
@@ -21,7 +21,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.kairo"
-        minSdk = flutter.minSdkVersion
+        minSdk = 21
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
